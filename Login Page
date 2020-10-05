@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+class 
+    fb{
+	string email;
+	int pass;
+	public:
+		void getdata(void);
+		int putdata(void);
+};
+    void fb::getdata()
+{
+	cout<<"Enter the information ";
+	cout<<"\n";
+	cout<<"=======================";
+	cout<<"\n";
+	cout<<"FACEBOOK";
+	cout<<"\n";
+	cout<<"=======================";
+	cout<<"\n";
+	cout<<"HINT : YOUR PASSWORD IS NUMERICALLY NOT TO THE ALPHABATICALLY \n";
+	cout<<"------------------------------------------------------------------\n";
+    cout<<"\n";
+	cout<<"Enter the E-mail ID : ";
+	cout<<"\n";
+	cin>>email;
+	cout<<"Enter the password :";
+	cin>>pass;
+		
+}
+int fb::putdata()
+{
+	cout<<"\n";
+
+     cout<<"Your Email Id is : \n"<<email;
+     cout<<"\n";
+	 cout<<"Your password is : \n"<<pass;
+	 cout<<"\n";	
+	if(pass==0)
+	{
+		return 0;
+	}
+	else
+	{
+		cout<<"The Current account is active";
+	}	
+}
+int main()
+{
+	fb obj;
+	obj.getdata();
+	obj.putdata();
+	
+	return 0;
+	
+}
