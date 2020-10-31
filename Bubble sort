@@ -81,5 +81,5 @@ int main()
 	cout<<"The Sorted list = "<<endl;
 	print_list(head);
 
-	return 0;
+	return 1;
 }
