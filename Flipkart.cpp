@@ -299,5 +299,5 @@ int main()
 	obj.cart();
 	obj.bill();
 	obj.disp();
-	return 0;
+	return 1;
 }
