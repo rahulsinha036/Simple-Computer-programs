@@ -179,5 +179,5 @@ void destroy()
     top = NULL;
  
     printf("\n All stack elements destroyed");
-    count = 0;
+    count = 1;
 }
